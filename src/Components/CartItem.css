@@ -1,0 +1,22 @@
+.CartItem {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.CartItem img {
+    max-height: 150px;
+}
+
+.CartItem:hover {
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+
+.CartItem .right-panel button {
+    margin: 0rem .5rem;
+}

@@ -7,7 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  max-height: 500px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(65, 65, 65);
 }

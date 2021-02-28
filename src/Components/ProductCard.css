@@ -1,0 +1,18 @@
+.ProductCard {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.ProductCard:hover {
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+
+.ProductCard .right-panel button {
+    margin: 0rem .5rem;
+}
